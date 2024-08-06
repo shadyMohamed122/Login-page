@@ -94,3 +94,22 @@ body{
     top: 88%;
     left: 14%;
 }
+
+.reset{
+    position: absolute;
+    top: 88%;
+    left: 14%;
+}
+
+.new{
+    position: absolute;
+    top: 88%;
+    left: 55%;
+}
+
+.new p,
+.reset p{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+}
