@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .form{
+    width: 672px;
+    height: 500px;
+    background-color: #000000b5;
+    border-radius: 30px;
+    outline: solid 1px #16d0d3;
+    position: relative;
+}
+
+.username{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+
+.username input,
+.pass input{
+    width: 270px;
+    padding: 10px;
+    border: solid 2px aqua;
+    outline: none;
+    border-radius: 60px;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.pass{
+    position: absolute;
+    top: 60%;
+    left: 32%;
+}
+
+.username input:focus,
+.pass input:focus{
+    border-color: black;
+}
+
+.form .button button{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    padding: 20px;
+    text-align: center;
+    width: 160px;
+    border-radius: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    background-image: linear-gradient(to right, aqua, rgb(80, 80, 236));
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form .button button:hover{
+    box-shadow: 0px 0px 8px 1px white;
+}
+
+.container .form::before{
+    content: "DontTryHackMe";
+    position: absolute;
+    top: 80px;
+    left: 31%;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.reset{
+    position: absolute;
+    top: 88%;
+    left: 14%;
+}
