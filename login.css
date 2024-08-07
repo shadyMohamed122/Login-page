@@ -32,7 +32,7 @@ body{
 
 .username{
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 32%;
 }
 
@@ -45,12 +45,14 @@ body{
     border-radius: 60px;
     font-family: monospace;
     font-weight: bold;
+    font-size: 16px;
     transition: 0.5s;
+    padding-left: 20px;
 }
 
 .pass{
     position: absolute;
-    top: 60%;
+    top: 56%;
     left: 32%;
 }
 
@@ -61,7 +63,8 @@ body{
 
 .form .button button{
     position: absolute;
-    top: 75%;
+    border: none;
+    top: 72%;
     left: 40%;
     padding: 20px;
     text-align: center;
@@ -112,4 +115,13 @@ body{
     color: white;
     font-weight: bold;
     font-family: arial;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+p a:hover{
+    color: white;
 }
